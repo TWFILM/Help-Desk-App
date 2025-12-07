@@ -18,15 +18,15 @@ A full-stack web application for managing support tickets, built with the MERN S
 ## 🛠️ Installation & Setup
 
 ### 1. Clone the repository
-\`\`\`bash
+```bash
 git clone git@github.com:TWFILM/Help-Desk-App.git
 cd help-desk-app
-\`\`\`
+```
 
 ### 2. Install Dependencies
 Install dependencies for both client and server:
 
-\`\`\`bash
+```bash
 # Server
 cd server
 npm install
@@ -34,20 +34,20 @@ npm install
 # Client
 cd ../client
 npm install
-\`\`\`
+```
 
 ### 3. Environment Variables
 Create a `.env` file in the `server` folder and add:
-\`\`\`
+```
 PORT=5000
 MONGO_URI=<your_mongodb_connection_string>
 JWT_SECRET=<your_secret_key>
-\`\`\`
+```
 
 ### 4. Run the App
 Open two terminals:
 
-\`\`\`bash
+```bash
 # Terminal 1 (Server)
 cd server
 npm run dev
@@ -55,7 +55,4 @@ npm run dev
 # Terminal 2 (Client)
 cd client
 npm run dev
-\`\`\`
-
-## 📝 License
-This project is open source and available under the [MIT License](LICENSE).
+```
